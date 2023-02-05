@@ -8,4 +8,6 @@
 p {
     font-size: medium;
  }
- 
+ section {
+    padding-left: 20px;
+}
