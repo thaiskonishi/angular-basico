@@ -2,9 +2,11 @@
     <article>
         <h3>Input/Output Properties</h3>
         <app-curso [nome]="nomeDoCurso"></app-curso>
+        <contador [value]="valorInicial" mudouValor="onMudouValor($event)"></contador>
     </article>
 </section>
 <br><br>
+
 <section>
     <!-- Aula data-binding -->
     <!-- <article>
