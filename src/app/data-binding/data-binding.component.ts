@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-data-binding',
@@ -17,6 +17,9 @@ export class DataBindingComponent implements OnInit {
   
   nomeDoCurso: string ='Angular';
   valorInicial: number =10;
+
+  // exemplo de input no data-binding.
+  @Input() inicio: number = 1000;
 
   pessoa: any = {
     nome: 'def',

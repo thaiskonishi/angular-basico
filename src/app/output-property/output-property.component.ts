@@ -11,6 +11,7 @@ export class OutputPropertyComponent {
 
   @Output() mudouValor = new EventEmitter() ;
 
+  cursos: string[]=['Java','Angular', 'Python'];
   incrementa(){
     this.valor++;
     this.mudouValor.emit({novoValor: this.valor})
